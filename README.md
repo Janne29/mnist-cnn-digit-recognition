@@ -2,7 +2,7 @@
 
 Dieses Projekt entstand im Rahmen meiner Facharbeit zum Thema neuronale Netze und Bilderkennung.
 
-Ziel des Projekts ist es, ein Convolutional Neural Network (CNN) zu trainieren, das handgeschriebene Ziffern aus dem [MNIST-Datensatz](https://yann.lecun.com/exdb/mnist/) erkennt. Dabei werden die Bilddaten geladen, normalisiert, mit einem neuronalen Netz verarbeitet und anschließend ausgewertet.
+Ziel des Projekts ist es, ein Convolutional Neural Network (CNN) zu trainieren, das handgeschriebene Ziffern aus dem [MNIST-Datensatz](http://yann.lecun.com/exdb/mnist/) erkennt. Dabei werden die Bilddaten geladen, normalisiert, mit einem neuronalen Netz verarbeitet und anschließend ausgewertet.
 
 ## Projektinhalt
 
@@ -32,7 +32,7 @@ Dense(10) + Softmax
 
 ## Datensatz
 
-Für das Projekt wird der [MNIST-Datensatz](https://yann.lecun.com/exdb/mnist/) verwendet. Dieser ist nicht im Repository enthalten und muss lokal im Ordner `MNIST/` abgelegt werden.
+Für das Projekt wird der [MNIST-Datensatz](http://yann.lecun.com/exdb/mnist/) verwendet. Dieser ist nicht im Repository enthalten und muss lokal im Ordner `MNIST/` abgelegt werden.
 
 Erwartete Ordnerstruktur:
 
