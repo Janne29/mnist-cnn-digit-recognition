@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Daten
+MNIST/
+*.idx1-ubyte
+*.idx3-ubyte
+*.gz
+
+# Modell / Ergebnisse
+mnist_cnn.keras
+history.json
+
+# Plot-Ausgaben
+plots/*.png
+plots/*.jpg
+plots/*.jpeg
+!plots/.gitkeep
+
+# Private / lokale Dateien
+.env
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
