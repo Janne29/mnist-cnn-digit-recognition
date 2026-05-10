@@ -4,27 +4,15 @@ __pycache__/
 .venv/
 venv/
 
-# Daten
+# MNIST-Daten
 MNIST/
 *.idx1-ubyte
 *.idx3-ubyte
 *.gz
 
-# Modell / Ergebnisse
+# Modell / Trainingsergebnisse
 mnist_cnn.keras
 history.json
 
 # Plot-Ausgaben
-plots/*.png
-plots/*.jpg
-plots/*.jpeg
-!plots/.gitkeep
-
-# Private / lokale Dateien
-.env
-.vscode/
-.idea/
-
-# System
-.DS_Store
-Thumbs.db
+plots/
